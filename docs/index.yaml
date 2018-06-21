@@ -1,9 +1,25 @@
 apiVersion: v1
 entries:
+  jenkins-x-platform:
+  - created: 2018-06-21T21:55:44.078089661+08:00
+    description: Jenkins X next gen cloud CI / CD platform for Kubernetes
+    digest: d4f5c0f62b07f07891a14d33c63787523bec3b5446a566202f67e02339e9ca71
+    home: https://jenkins-x.github.io/jenkins-x-website/
+    icon: https://jenkins-x.github.io/jenkins-x-website/img/profile.png
+    maintainers:
+    - email: jenkins-x@googlegroups.com
+      name: Jenkins X Team
+    name: jenkins-x-platform
+    sources:
+    - https://github.com/jenkins-x/jenkins-x-platform
+    - https://github.com/kubernetes/charts
+    urls:
+    - https://juexun.github.com/helm-charts/jenkins-x-platform-0.0.1467.tgz
+    version: 0.0.1467
   monocular:
   - apiVersion: v1
     appVersion: v0.7.2
-    created: 2018-06-21T21:35:39.588446444+08:00
+    created: 2018-06-21T21:55:44.080889508+08:00
     description: Monocular is a search and discovery front end for Helm Charts Repositories.
     digest: 97d97a5aca4cf5bd54df4fb9b7da0a0bf5721841b60634a8577a3b013a70c8ac
     home: https://github.com/kubernetes-helm/monocular
@@ -16,4 +32,4 @@ entries:
     urls:
     - https://juexun.github.com/helm-charts/monocular-0.6.1.tgz
     version: 0.6.1
-generated: 2018-06-21T21:35:39.578811804+08:00
+generated: 2018-06-21T21:55:44.067929179+08:00
